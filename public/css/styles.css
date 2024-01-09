@@ -23,3 +23,7 @@ nav > span {
     font-weight: bold;
     font-size: 18px;
 }
+
+nav > img:last-of-type {
+    margin-left: auto;
+}
