@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:n,b,i");
+
+body {
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+header {
+    background-color: #401040;
+    color: #ffffff;
+    padding: 15px;
+}
