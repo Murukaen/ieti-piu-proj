@@ -65,3 +65,7 @@ section#description > h1 {
     font-size: 22px;
     font-weight: 500;
 }
+
+section#description > img {
+    width: 100%;
+}
