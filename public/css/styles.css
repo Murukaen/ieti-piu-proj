@@ -131,3 +131,19 @@ footer > .imgs > img {
     width: 40px;
     margin-right: 13px;
 }
+
+#search-section > form > input {
+    background-color: #808080;
+    color: white;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 15px;
+    width: 225px;
+    font-size: 20px;
+}
+
+#search-section > form > input::placeholder {
+    color: white;
+    opacity: 0.8;
+}
