@@ -122,3 +122,12 @@ footer > a {
     font-weight: 500;
     color: #78D447;
 }
+
+footer > .imgs {
+    padding-top: 40px;
+}
+
+footer > .imgs > img {
+    width: 40px;
+    margin-right: 13px;
+}
