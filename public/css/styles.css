@@ -10,20 +10,38 @@ body {
 header {
     background-color: #401040;
     color: #ffffff;
-    padding: 15px;
 }
 
-nav {
+header > section {
+    padding: 15px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
-nav > span {
+header > section > span {
     margin-left: 10px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 24px;
 }
 
-nav > img:last-of-type {
+header > section > img:last-of-type {
     margin-left: auto;
+}
+
+header > nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+header > nav > a {
+    display: block;
+    text-decoration: none;
+    background-color: #2C8000;
+    margin-bottom: 3px;
+    padding: 15px;
+    color: white;
+    font-weight: 500;
 }
