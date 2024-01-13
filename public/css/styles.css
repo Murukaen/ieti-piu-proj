@@ -69,3 +69,14 @@ section#description > h1 {
 section#description > img {
     width: 100%;
 }
+
+section#go-to-search {
+    background-color: #401040;
+    color: white;
+    padding: 88px 16px;
+}
+
+section#go-to-search > p:first-of-type {
+    margin: 0;
+    text-align: center;
+}
