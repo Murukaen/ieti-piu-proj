@@ -147,3 +147,9 @@ footer > .imgs > img {
     color: white;
     opacity: 0.8;
 }
+
+#search-section > img.search {
+    position: relative;
+    top: -32px;
+    left: 225px;
+}
