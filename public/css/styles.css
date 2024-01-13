@@ -60,7 +60,7 @@ section#description {
     padding: 22px 16px;
 }
 
-section#description > h2 {
+section#description > h2, #search-section > h2 {
     margin-top: 0;
     font-size: 22px;
     font-weight: 500;
@@ -94,7 +94,7 @@ section#go-to-search > button {
     font-weight: 500;
 }
 
-section#history {
+section#history, #search-section {
     background-color: #800080;
     color: white;
     padding: 22px 16px;
