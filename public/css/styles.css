@@ -74,9 +74,22 @@ section#go-to-search {
     background-color: #401040;
     color: white;
     padding: 88px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section#go-to-search > p:first-of-type {
     margin: 0;
     text-align: center;
+}
+
+section#go-to-search > button {
+    margin-top: 85px;
+    background-color: #2C8000;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 80px;
+    border: none;
+    font-weight: 500;
 }
