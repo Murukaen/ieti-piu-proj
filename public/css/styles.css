@@ -132,6 +132,10 @@ footer > .imgs > img {
     margin-right: 13px;
 }
 
+#search-section {
+    min-height: 310px;
+}
+
 #search-section > form {
     display: inline-block;
 }
