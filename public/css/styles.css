@@ -132,6 +132,10 @@ footer > .imgs > img {
     margin-right: 13px;
 }
 
+#search-section > form {
+    display: inline-block;
+}
+
 #search-section > form > input {
     background-color: #808080;
     color: white;
@@ -150,6 +154,18 @@ footer > .imgs > img {
 
 #search-section > img.search {
     position: relative;
-    top: -32px;
-    left: 225px;
+    top: 4px;
+    left: -35px;
+}
+
+#search-section > img.filter {
+    position: relative;
+    top: 6px;
+    left: -5px;
+}
+
+#search-section > img.info {
+    position: relative;
+    top: 6px;
+    left: 6px;
 }
