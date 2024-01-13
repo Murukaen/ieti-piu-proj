@@ -66,7 +66,7 @@ section#description > h2 {
     font-weight: 500;
 }
 
-section#description > img {
+section#description > img, section#history > img {
     width: 100%;
 }
 
@@ -103,4 +103,5 @@ section#history {
 section#history > h2 {
     margin-top: 0;
     font-weight: 500;
+    margin-bottom: 12px;
 }
