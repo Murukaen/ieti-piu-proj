@@ -19,13 +19,17 @@ header > section {
     align-items: center;
 }
 
+header > section > img.close {
+    display: none;
+}
+
 header > section > span {
     margin-left: 10px;
     font-weight: bold;
     font-size: 24px;
 }
 
-header > section > img:last-of-type {
+header > section > img.open, header > section > img.close {
     margin-left: auto;
 }
 
