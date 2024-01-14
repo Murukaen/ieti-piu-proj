@@ -181,6 +181,11 @@ footer > .imgs > img {
     row-gap: 18px;
 }
 
+.grid a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .grid-item {
     background-color: #CDCDCD;
     color: black;
