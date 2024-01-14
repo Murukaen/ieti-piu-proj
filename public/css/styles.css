@@ -308,3 +308,14 @@ section#book-reviews > h2 {
 section#book-reviews > ul {
     line-height: 22px;
 }
+
+section#book-more-imgs {
+    background-color: #401040;
+    padding: 26px 16px;
+}
+
+section#book-more-imgs img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
