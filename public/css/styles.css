@@ -216,3 +216,7 @@ footer > .imgs > img {
     border: 2px solid black;
     border-radius: 20px;
 }
+
+#search-section div.filter > form > select:has(option[value=""]:checked) {
+    color: #666666;
+}
