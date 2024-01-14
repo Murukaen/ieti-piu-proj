@@ -199,6 +199,7 @@ footer > .imgs > img {
     margin-top: 32px;
     padding: 10px;
     display: none;
+    position: relative;
 }
 
 #search-section div.filter > form {
@@ -219,4 +220,10 @@ footer > .imgs > img {
 
 #search-section div.filter > form > select:has(option[value=""]:checked) {
     color: #666666;
+}
+
+#search-section div.filter > img.done {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
