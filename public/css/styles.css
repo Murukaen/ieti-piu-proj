@@ -259,3 +259,11 @@ section#book-details > h4 {
 section#book-details > p:last-of-type {
     margin-bottom: 0;
 }
+
+section#book-details-actions {
+    background-color: #401040;
+    display: flex;
+    justify-content: center;
+    padding-top: 21px;
+    padding-bottom: 36px;
+}
