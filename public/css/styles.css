@@ -133,11 +133,11 @@ footer > .imgs > img {
     min-height: 310px;
 }
 
-#search-section > form {
+#search-section > form, section#search-locations > form {
     display: inline-block;
 }
 
-#search-section > form > input {
+#search-section > form > input, section#search-locations > form > input {
     background-color: #808080;
     color: white;
     outline: none;
@@ -148,12 +148,12 @@ footer > .imgs > img {
     font-size: 20px;
 }
 
-#search-section > form > input::placeholder {
+#search-section > form > input::placeholder, section#search-locations > form > input::placeholder {
     color: white;
     opacity: 0.8;
 }
 
-#search-section > img.search {
+#search-section > img.search, section#search-locations > img.search {
     position: relative;
     top: 4px;
     left: -35px;
