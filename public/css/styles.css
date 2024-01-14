@@ -314,7 +314,7 @@ section#book-more-imgs {
     padding: 26px 16px;
 }
 
-section#book-more-imgs img {
+section#book-more-imgs img, #reserve-section > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
