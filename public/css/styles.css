@@ -54,7 +54,7 @@ header > nav {
     display: none;
 }
 
-section#description, section#history, #search-section, section#book-details, section#book-reviews {
+section#description, section#history, #search-section, section#book-details, section#book-reviews, #reserve-section {
     background-color: #800080;
     color: white;
     padding: 22px 16px;
@@ -322,4 +322,14 @@ section#book-more-imgs img {
 
 #book-details-footer {
     background-color: #800080;
+}
+
+#reserve-section > h2 {
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#reserve-section > h3 {
+    font-weight: 500;
 }
