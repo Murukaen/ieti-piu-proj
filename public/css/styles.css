@@ -197,5 +197,22 @@ footer > .imgs > img {
     border-radius: 40px;
     background-color: #FF80FF;
     margin-top: 32px;
+    padding: 10px;
     display: none;
+}
+
+#search-section div.filter > form {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 10px;
+    row-gap: 20px;
+    height: 100%;
+    align-content: center;
+}
+
+#search-section div.filter > form > select {
+    padding: 10px;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid black;
+    border-radius: 20px;
 }
