@@ -84,13 +84,16 @@ section#go-to-search > p:first-of-type {
     text-align: center;
 }
 
+button {
+    color: white;
+    border-radius: 5px;
+    background-color: #2C8000;
+    border: none;
+}
+
 section#go-to-search > button {
     margin-top: 85px;
-    background-color: #2C8000;
-    border-radius: 5px;
-    color: white;
     padding: 10px 80px;
-    border: none;
     font-weight: 500;
 }
 
@@ -278,4 +281,20 @@ section#book-details-actions > p {
 
 section#book-details-actions span.green {
     color: #02B70A;
+}
+
+section#book-details-actions div:has(button) {
+    margin-top: 28px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+section#book-details-actions button {
+    padding: 10px 60px;
+    border-radius: 20px;
+}
+
+button.disabled {
+    background-color: #7C7B7B;
 }
