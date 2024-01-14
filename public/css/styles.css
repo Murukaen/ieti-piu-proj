@@ -213,14 +213,17 @@ footer > .imgs > img {
     align-content: center;
 }
 
-#search-section div.filter > form > select {
+select {
     padding: 10px;
-    background-color: rgba(0,0,0,0);
     border: 2px solid black;
     border-radius: 20px;
 }
 
-#search-section div.filter > form > select:has(option[value=""]:checked) {
+#search-section div.filter > form > select {
+    background-color: rgba(0,0,0,0);
+}
+
+select:has(option[value=""]:checked) {
     color: #666666;
 }
 
@@ -332,4 +335,14 @@ section#book-more-imgs img, #reserve-section > img {
 
 #reserve-section > h3 {
     font-weight: 500;
+}
+
+#reserve-section > form {
+    margin-top: 36px;
+}
+
+#reserve-section select {
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
 }
