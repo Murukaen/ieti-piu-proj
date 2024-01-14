@@ -266,4 +266,16 @@ section#book-details-actions {
     justify-content: center;
     padding-top: 21px;
     padding-bottom: 36px;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+section#book-details-actions > p {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+section#book-details-actions span.green {
+    color: #02B70A;
 }
