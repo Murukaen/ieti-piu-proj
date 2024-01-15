@@ -359,6 +359,10 @@ section#book-more-imgs img, #reserve-section > img {
     margin-top: 60px;
 }
 
+section#search-locations {
+    min-height: 320px;
+}
+
 section#search-locations .grid {
     margin-top: 38px;
     margin-bottom: 36px;
