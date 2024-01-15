@@ -380,3 +380,10 @@ section#location-details > p {
 section#location-details > iframe {
     width: 100%;
 }
+
+section#location-details > button {
+    padding: 10px 80px;
+    display: block;
+    border-radius: 20px;
+    margin: 40px auto 34px;
+}
