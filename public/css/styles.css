@@ -387,3 +387,13 @@ section#location-details > button {
     border-radius: 20px;
     margin: 40px auto 34px;
 }
+
+section#contact > img.contact-icon {
+    margin-left: 10px;
+    position: relative;
+    top: 4px;
+}
+
+section#contact > h2 {
+    display: inline-block;
+}
