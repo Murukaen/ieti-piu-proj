@@ -372,3 +372,7 @@ section#location-details > h3 {
     font-size: 20px;
     font-weight: 500;
 }
+
+section#location-details > p {
+    text-align: center;
+}
