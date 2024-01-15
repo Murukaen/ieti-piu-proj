@@ -376,3 +376,7 @@ section#location-details > h3 {
 section#location-details > p {
     text-align: center;
 }
+
+section#location-details > iframe {
+    width: 100%;
+}
