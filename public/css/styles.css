@@ -358,3 +358,8 @@ section#book-more-imgs img, #reserve-section > img {
     justify-content: center;
     margin-top: 60px;
 }
+
+section#search-locations .grid {
+    margin-top: 38px;
+    margin-bottom: 36px;
+}
