@@ -245,7 +245,7 @@ select:has(option[value=""]:checked) {
     accent-color: black;
 }
 
-section#book-details > h3, section#book-details > h4 {
+section#book-details > h3, section#location-details > h3, section#book-details > h4 {
     color: #78D447;
 }
 
@@ -366,4 +366,9 @@ section#search-locations {
 section#search-locations .grid {
     margin-top: 38px;
     margin-bottom: 36px;
+}
+
+section#location-details > h3 {
+    font-size: 20px;
+    font-weight: 500;
 }
