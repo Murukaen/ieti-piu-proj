@@ -418,3 +418,17 @@ section#contact div:has(button) {
 section#contact button {
     padding: 10px 75px;
 }
+
+section#contact > div:has(img.info) {
+    margin-top: 10px;
+}
+
+section#contact > div:has(img.info) > p {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+section#contact > div:has(img.info) > img {
+    position: relative;
+    top: 10px;
+}
