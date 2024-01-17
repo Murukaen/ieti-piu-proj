@@ -397,3 +397,11 @@ section#contact > img.contact-icon {
 section#contact > h2 {
     display: inline-block;
 }
+
+section#contact > form > input {
+    display: block;
+    margin-bottom: 22px;
+    padding: 10px;
+    background-color: #D9D9D9;
+    color: #7C7B7B;
+}
