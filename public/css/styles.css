@@ -286,14 +286,14 @@ section#book-details-actions span.green {
     color: #02B70A;
 }
 
-section#book-details-actions div:has(button), #reserve-section div:has(button) {
+section#book-details-actions div:has(button), #reserve-section div:has(button), section#contact div:has(button) {
     margin-top: 28px;
     display: flex;
     flex-direction: row;
     column-gap: 20px;
 }
 
-section#book-details-actions button {
+section#book-details-actions button, section#contact button {
     padding: 10px 60px;
     border-radius: 20px;
 }
@@ -409,4 +409,12 @@ section#contact > form > input {
 section#contact > form > textarea {
     background-color: #D9D9D9;
     color: #7C7B7B;
+}
+
+section#contact div:has(button) {
+    justify-content: center;
+}
+
+section#contact button {
+    padding: 10px 75px;
 }
