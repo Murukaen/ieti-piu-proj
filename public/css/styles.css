@@ -432,3 +432,9 @@ section#contact > div:has(img.info) > img {
     position: relative;
     top: 10px;
 }
+
+@media only screen and (max-width: 375px) {
+    #search-section > form > input {
+        width: 160px;
+    }
+}
