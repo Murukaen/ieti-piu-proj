@@ -91,7 +91,7 @@ button {
     border: none;
 }
 
-section#go-to-search > button {
+section#go-to-search button {
     margin-top: 85px;
     padding: 10px 80px;
     font-weight: 500;
