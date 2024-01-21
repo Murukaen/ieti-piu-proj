@@ -442,3 +442,32 @@ section#contact > div:has(img.info) > img {
         width: 160px;
     }
 }
+
+@media only screen and (min-width: 768px) {
+    header > section > img.open {
+        display: none;
+    }
+
+    header > nav {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        margin-left: auto;
+    }
+
+    header {
+        display: flex;
+    }
+
+    header > nav > a {
+        line-height: 34px;
+    }
+
+    header > nav > a:not(.active) {
+        background-color: inherit;
+    }
+
+    header > nav > a:not(:last-child) {
+        border-right: 1px solid;
+    }
+}
