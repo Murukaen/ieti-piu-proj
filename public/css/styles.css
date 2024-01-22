@@ -437,6 +437,10 @@ section#contact > div:has(img.info) > img {
     top: 10px;
 }
 
+.tablet {
+    display: none;
+}
+
 @media only screen and (max-width: 375px) {
     #search-section > form > input {
         width: 160px;
@@ -469,5 +473,13 @@ section#contact > div:has(img.info) > img {
 
     header > nav > a:not(:last-child) {
         border-right: 1px solid;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .tablet {
+        display: initial;
     }
 }
