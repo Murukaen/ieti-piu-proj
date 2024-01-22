@@ -482,4 +482,25 @@ section#contact > div:has(img.info) > img {
     .tablet {
         display: initial;
     }
+
+    section#go-to-search p {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    section#go-to-search button {
+        width: 425px;
+        border-radius: 20px;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    section#description p {
+        font-size: 20px;
+    }
+
+    section#description > h2 {
+        font-size: 28px;
+        font-weight: 500;
+    }
 }
