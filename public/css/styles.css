@@ -475,10 +475,6 @@ section#contact > div:has(img.info) > img {
         border-right: 1px solid;
     }
 
-    .mobile {
-        display: none;
-    }
-
     .tablet {
         display: initial;
     }
@@ -502,5 +498,26 @@ section#contact > div:has(img.info) > img {
     section#description > h2 {
         font-size: 28px;
         font-weight: 500;
+    }
+
+    section#history img.tablet {
+        display: block;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section#history > h2 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    section#history > p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .mobile {
+        display: none;
     }
 }
