@@ -109,22 +109,22 @@ footer {
     padding: 22px 16px;
 }
 
-footer > h2 {
+footer h2 {
     margin-top: 0;
     font-weight: 400;
 }
 
-footer > a {
+footer a {
     font-size: 20px;
     font-weight: 500;
     color: #78D447;
 }
 
-footer > .imgs {
+footer .imgs {
     padding-top: 40px;
 }
 
-footer > .imgs > img {
+footer .imgs > img {
     width: 40px;
     margin-right: 13px;
 }
@@ -524,5 +524,31 @@ section#contact > div:has(img.info) > img {
     header > section > span, header > nav > a {
         font-size: 26px;
         font-weight: 700;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+    }
+
+    footer > div:last-child {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    footer p {
+        font-size: 20px;
+    }
+
+    footer a {
+        font-size: 28px;
+        font-weight: 500;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .imgs > img {
+        width: 60px;
     }
 }
