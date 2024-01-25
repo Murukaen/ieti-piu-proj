@@ -25,13 +25,14 @@
         </nav>
     </header>
     <section id="search-section">
-        <h2>Caută cărți</h2>
+        <h2 class="mobile">Caută cărți</h2>
         <form>
             <input type="text" placeholder="caută" name="name">
+            <img class="search mobile" src="../media/search-icon.svg" alt="Search icon">
+            <img class="search tablet" src="../media/search-icon-black.svg" alt="Search icon">
+            <img class="filter mobile" src="../media/filter-icon.png" alt="Filter icon" onclick="window.displaySearchFilter()">
+            <img class="info" src="../media/info-icon.png" alt="Info icon">
         </form>
-        <img class="search" src="../media/search-icon.svg" alt="Search icon">
-        <img class="filter" src="../media/filter-icon.png" alt="Filter icon" onclick="window.displaySearchFilter()">
-        <img class="info" src="../media/info-icon.png" alt="Info icon">
         <div class="filter">
             <form action="#">
                 <select name="gendre">
