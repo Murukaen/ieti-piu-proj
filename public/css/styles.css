@@ -564,7 +564,7 @@ section#contact > div:has(img.info) > img {
         color: #7C7B7B;
     }
 
-    #search-section form > input::placeholder {
+    #search-section > form > input::placeholder {
         color: #7C7B7B;
         opacity: .8;
     }
@@ -572,5 +572,31 @@ section#contact > div:has(img.info) > img {
     #search-section img.info {
         left: -4px;
         top: 8px;
+    }
+
+    #search-section div.filter {
+        display: block;
+        background-color: inherit;
+    }
+
+    #search-section div.filter form {
+        display: flex;
+        justify-content: space-evenly;
+        height: auto;
+        margin-top: 14px;
+    }
+
+    #search-section div.filter form select, #search-section div.filter form > div {
+        background-color: #D9D9D9;
+        width: 145px;
+        box-sizing: border-box;
+    }
+
+    #search-section div.filter img.done {
+        display: none;
+    }
+
+    #search-section div.filter > form > .my-books-selector {
+        justify-content: center;
     }
 }
