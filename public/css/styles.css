@@ -369,6 +369,10 @@ section#book-more-imgs img, #reserve-section > img {
     margin-top: 60px;
 }
 
+#reserve-section {
+    padding-bottom: 36px;
+}
+
 section#search-locations {
     min-height: 320px;
 }
