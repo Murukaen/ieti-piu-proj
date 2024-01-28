@@ -661,4 +661,22 @@ section#contact > div:has(img.info) > img {
     section#book-details-actions > div {
         width: 100%;
     }
+
+    section#book-reviews-with-img {
+        display: flex;
+        flex-direction: row;
+    }
+
+    section#book-more-imgs {
+        background-color: #800080;
+        padding: 0;
+    }
+
+    #book-details-footer {
+        background-color: #401040;
+    }
+
+    section#book-reviews ul {
+        font-size: 18px;
+    }
 }
