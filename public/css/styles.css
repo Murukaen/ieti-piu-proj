@@ -590,6 +590,7 @@ section#contact > div:has(img.info) > img {
         background-color: #D9D9D9;
         width: 145px;
         box-sizing: border-box;
+        font-size: 18px;
     }
 
     #search-section div.filter img.done {
