@@ -245,17 +245,17 @@ select:has(option[value=""]:checked) {
     accent-color: black;
 }
 
-section#book-details > h3, section#location-details > h3, section#book-details > h4 {
+section#book-details h3, section#location-details > h3, section#book-details h4 {
     color: #78D447;
 }
 
-section#book-details > h3 {
+section#book-details h3 {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 8px;
 }
 
-section#book-details > h4 {
+section#book-details h4 {
     margin-top: 8px;
     margin-bottom: 12px;
     font-size: 16px;
@@ -604,5 +604,23 @@ section#contact > div:has(img.info) > img {
     .grid {
         grid-template-columns: auto auto auto;
         margin-bottom: 68px;
+    }
+
+    section#book-details > h2 {
+        margin-top: 10px;
+        font-size: 24px;
+    }
+
+    section#book-details > div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: left;
+        column-gap: 100px;
+    }
+
+    section#book-details h3, section#book-details h4 {
+        font-size: 22px;
+        margin: 0;
     }
 }
