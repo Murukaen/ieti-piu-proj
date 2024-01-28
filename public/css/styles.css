@@ -445,6 +445,12 @@ section#contact > div:has(img.info) > img {
     #search-section > form > input {
         width: 160px;
     }
+
+    section#book-details-actions div:has(button) {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+    }
 }
 
 @media only screen and (min-width: 768px) {
