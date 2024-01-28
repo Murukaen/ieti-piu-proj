@@ -623,4 +623,16 @@ section#contact > div:has(img.info) > img {
         font-size: 22px;
         margin: 0;
     }
+
+    section#book-details > p {
+        font-size: 18px;
+    }
+
+    section#book-details > p:last-of-type {
+        margin-bottom: 5px;
+    }
+
+    section#book-details > p:first-of-type {
+        margin-top: 94px;
+    }
 }
