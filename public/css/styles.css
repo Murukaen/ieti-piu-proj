@@ -600,4 +600,9 @@ section#contact > div:has(img.info) > img {
     #search-section div.filter > form > .my-books-selector {
         justify-content: center;
     }
+
+    .grid {
+        grid-template-columns: auto auto auto;
+        margin-bottom: 68px;
+    }
 }
