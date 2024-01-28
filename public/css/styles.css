@@ -345,6 +345,7 @@ section#book-more-imgs img, #reserve-section > img {
 
 #reserve-section > h3 {
     font-weight: 500;
+    margin-bottom: 25px;
 }
 
 #reserve-section > form {
