@@ -7,6 +7,10 @@ body {
     font-weight: 400;
 }
 
+select {
+    font-family: inherit;
+}
+
 header {
     background-color: #401040;
     color: #ffffff;
@@ -357,6 +361,8 @@ section#book-more-imgs img, #reserve-section > img {
     width: 200px;
     text-align: center;
     margin-bottom: 32px;
+    height: 29px;
+    padding: 0;
 }
 
 #reserve-section button {
