@@ -803,4 +803,41 @@ section#contact > div:has(img.info) > img {
         display: block;
         width: initial;
     }
+
+    section#contact {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#contact form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#contact h2.mobile {
+        display: none;
+    }
+
+    section#contact h2 {
+        margin-top: 56px;
+    }
+
+    section#contact input {
+        text-align: center;
+    }
+
+    section#contact textarea {
+        padding: 16px;
+    }
+
+    section#contact > div:has(img.info) {
+        margin-top: 54px;
+    }
+
+    section#contact > div:last-of-type > p:last-of-type {
+        margin-bottom: 34px;
+    }
 }
