@@ -583,19 +583,19 @@ section#contact > div:has(img.info) > img {
         width: 60px;
     }
 
-    #search-section form {
+    #search-section form, section#search-locations form {
         width: 100%;
         text-align: center;
         margin-top: 34px;
     }
 
-    #search-section form > input {
+    #search-section form > input, section#search-locations form > input  {
         width: 500px;
         background-color: #D9D9D9;
         color: #7C7B7B;
     }
 
-    #search-section > form > input::placeholder {
+    #search-section > form > input::placeholder, section#search-locations > form > input::placeholder {
         color: #7C7B7B;
         opacity: .8;
     }
@@ -762,5 +762,13 @@ section#contact > div:has(img.info) > img {
         margin-top: 100px;
         padding-bottom: 100px;
         justify-content: space-evenly;
+    }
+
+    section#search-locations .grid {
+        margin-top: 140px;
+    }
+
+    section#search-locations .grid-item {
+        height: 170px;
     }
 }
