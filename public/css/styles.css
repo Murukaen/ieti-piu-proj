@@ -290,7 +290,7 @@ section#book-details-actions span.green {
     color: #02B70A;
 }
 
-section#book-details-actions div:has(> a > button), #reserve-section div:has(button), section#contact div:has(button) {
+section#book-details-actions div:has(> a > button), #reserve-section section:has(> button), section#contact div:has(button) {
     margin-top: 28px;
     display: flex;
     flex-direction: row;
@@ -331,7 +331,7 @@ section#book-more-imgs {
     padding: 26px 16px;
 }
 
-section#book-more-imgs img, #reserve-section > img {
+section#book-more-imgs img, #reserve-section img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -341,18 +341,18 @@ section#book-more-imgs img, #reserve-section > img {
     background-color: #800080;
 }
 
-#reserve-section > h2 {
+#reserve-section h2 {
     margin-top: 8px;
     font-size: 22px;
     font-weight: 500;
 }
 
-#reserve-section > h3 {
+#reserve-section h3 {
     font-weight: 500;
     margin-bottom: 25px;
 }
 
-#reserve-section > form {
+#reserve-section form {
     margin-top: 36px;
 }
 
@@ -371,7 +371,7 @@ section#book-more-imgs img, #reserve-section > img {
     border-radius: 20px;
 }
 
-#reserve-section div:has(button) {
+#reserve-section section:has(> button) {
     justify-content: center;
     margin-top: 60px;
 }
@@ -459,6 +459,10 @@ section#contact > div:has(img.info) > img {
 }
 
 .tablet {
+    display: none;
+}
+
+#reserve-section img.tablet {
     display: none;
 }
 
@@ -689,5 +693,74 @@ section#contact > div:has(img.info) > img {
 
     section#book-reviews ul {
         font-size: 18px;
+    }
+
+    #reserve-section {
+        padding: 0;
+    }
+
+    #reserve-section > section:first-of-type {
+        padding-left: 16px;
+    }
+
+    #reserve-section h2 {
+        font-size: 24px;
+        margin-top: 32px;
+    }
+
+    #reserve-section h3 {
+        margin-top: 86px;
+    }
+
+    #reserve-section > section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #reserve-section > section:first-of-type > img {
+        height: 316px;
+    }
+
+    #reserve-section > section:nth-child(2) {
+        background: #401040;
+        align-items: center;
+        justify-content: start;
+    }
+
+    #reserve-section img.tablet {
+        display: block;
+    }
+
+    #reserve-section img {
+        margin-left: 0;
+    }
+
+    #reserve-section > section:nth-child(2) > div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #reserve-section > section:nth-child(2) > div > form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #reserve-section > section:nth-child(2) > div > h2 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    #reserve-section > section:nth-child(2) > img {
+        margin-left: inherit;
+        margin-right: inherit;
+    }
+
+    #reserve-section > section:nth-child(3) {
+        margin-top: 100px;
+        padding-bottom: 100px;
+        justify-content: space-evenly;
     }
 }
