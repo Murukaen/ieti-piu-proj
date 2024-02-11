@@ -62,6 +62,10 @@ header > nav {
     display: none;
 }
 
+#reserve-section img.desktop {
+    display: none;
+}
+
 section#description, section#history, #search-section, section#book-details, section#book-reviews, #reserve-section, section#search-locations, section#location-details, section#contact {
     background-color: #800080;
     color: white;
@@ -989,5 +993,22 @@ section#contact > div:has(img.info) > img {
 
     section#book-more-imgs > img {
         min-width: 450px;
+    }
+
+    #reserve-section > section:first-of-type {
+        justify-content: space-between;
+    }
+
+    #reserve-section > section:first-of-type img {
+        margin: 0;
+    }
+
+    #reserve-section > section:first-of-type img.tablet {
+        display: none;
+    }
+
+    #reserve-section > section:first-of-type img.desktop {
+        display: revert;
+        max-width: 730px;
     }
 }
