@@ -845,3 +845,19 @@ section#contact > div:has(img.info) > img {
         width: 100%;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    header > nav {
+        margin-left: 108px;
+    }
+
+    header > nav > a {
+        font-size: 28px;
+        line-height: 60px;
+        margin-right: 24px;
+    }
+
+    header > nav > a:not(:last-child) {
+        border-right: none;
+    }
+}
