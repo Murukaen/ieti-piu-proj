@@ -860,4 +860,21 @@ section#contact > div:has(img.info) > img {
     header > nav > a:not(:last-child) {
         border-right: none;
     }
+
+    section#description {
+        padding: 56px 42px 28px;
+    }
+
+    section#description > h2.tablet {
+        margin-top: 56px;
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    section#description > img.tablet {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 936px;
+    }
 }
