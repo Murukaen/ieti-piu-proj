@@ -877,4 +877,9 @@ section#contact > div:has(img.info) > img {
         margin-right: auto;
         width: 936px;
     }
+
+    section#go-to-search {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
 }
