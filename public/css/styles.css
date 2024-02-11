@@ -937,6 +937,16 @@ section#contact > div:has(img.info) > img {
         margin-top: 70px;
     }
 
+    #search-section {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    #search-section div.filter {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     #search-section div.filter form {
         justify-content: start;
         gap: 50px;
@@ -945,5 +955,9 @@ section#contact > div:has(img.info) > img {
 
     #search-section .grid-item {
         height: 171px;
+    }
+
+    #search-section .grid {
+        grid-template-columns: auto auto auto auto auto;
     }
 }
