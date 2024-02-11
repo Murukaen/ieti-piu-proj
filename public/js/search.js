@@ -15,6 +15,9 @@ addEventListener("load", () => {
             // Display filter with my-books options checked
             displaySearchFilter();
             document.getElementById('my-books-input').checked = true;
+            // Make my-books menu item as active
+            document.querySelector('.active').classList = [];
+            document.getElementById('my-books-link').classList = ['active'];
         }
     }
 })
