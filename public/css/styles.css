@@ -882,4 +882,12 @@ section#contact > div:has(img.info) > img {
         padding-top: 100px;
         padding-bottom: 100px;
     }
+
+    section#history {
+        padding: 36px 42px 32px;
+    }
+
+    section#history > img.tablet {
+        width: 520px;
+    }
 }
