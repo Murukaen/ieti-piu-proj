@@ -936,4 +936,14 @@ section#contact > div:has(img.info) > img {
     footer div.imgs {
         margin-top: 70px;
     }
+
+    #search-section div.filter form {
+        justify-content: start;
+        gap: 50px;
+        margin: 0;
+    }
+
+    #search-section .grid-item {
+        height: 171px;
+    }
 }
