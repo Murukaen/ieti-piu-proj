@@ -978,4 +978,16 @@ section#contact > div:has(img.info) > img {
     section#book-details > p:first-of-type {
         margin-top: 34px;
     }
+
+    section#book-details-actions > img {
+        min-width: 448px;
+    }
+
+    section#book-reviews {
+        padding-top: 32px;
+    }
+
+    section#book-more-imgs > img {
+        min-width: 450px;
+    }
 }
