@@ -949,7 +949,7 @@ section#contact > div:has(img.info) > img {
         margin-top: 70px;
     }
 
-    #search-section {
+    #search-section, section#search-locations {
         padding-left: 75px;
         padding-right: 75px;
     }
@@ -969,7 +969,7 @@ section#contact > div:has(img.info) > img {
         height: 171px;
     }
 
-    #search-section .grid {
+    #search-section .grid, section#search-locations .grid {
         grid-template-columns: auto auto auto auto auto;
     }
 
