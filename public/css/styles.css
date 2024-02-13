@@ -734,9 +734,14 @@ section#contact > div:has(img.info) > img {
         margin-top: 86px;
     }
 
-    #reserve-section > section {
+    #reserve-section > section:first-of-type {
         display: flex;
         flex-direction: row;
+    }
+
+    #reserve-section > section:nth-of-type(2) {
+        display: grid;
+        grid-template-columns: auto auto;
     }
 
     #reserve-section > section:first-of-type > img {
@@ -746,7 +751,15 @@ section#contact > div:has(img.info) > img {
     #reserve-section > section:nth-child(2) {
         background: #401040;
         align-items: center;
-        justify-content: start;
+    }
+
+    #reserve-section > section:nth-child(2) > div:nth-of-type(2) {
+        grid-column: 1 / 3;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: #800080;
+        margin: 0;
+        gap: 82px;
     }
 
     #reserve-section img.tablet {
@@ -757,20 +770,20 @@ section#contact > div:has(img.info) > img {
         margin-left: 0;
     }
 
-    #reserve-section > section:nth-child(2) > div {
+    #reserve-section > section:nth-child(2) > div:first-of-type {
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
     }
 
-    #reserve-section > section:nth-child(2) > div > form {
+    #reserve-section > section:nth-child(2) > div:first-of-type > form {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    #reserve-section > section:nth-child(2) > div > h2 {
+    #reserve-section > section:nth-child(2) > div:first-of-type > h2 {
         font-size: 26px;
         font-weight: 700;
     }
@@ -778,12 +791,6 @@ section#contact > div:has(img.info) > img {
     #reserve-section > section:nth-child(2) > img {
         margin-left: inherit;
         margin-right: inherit;
-    }
-
-    #reserve-section > section:nth-child(3) {
-        margin-top: 100px;
-        padding-bottom: 100px;
-        justify-content: space-evenly;
     }
 
     section#search-locations .grid {
