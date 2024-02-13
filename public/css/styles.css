@@ -970,7 +970,11 @@ section#contact > div:has(img.info) > img {
     }
 
     #search-section .grid, section#search-locations .grid {
-        grid-template-columns: auto auto auto auto auto;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    section#search-locations .grid {
+        margin-top: 124px;
     }
 
     section#book-details > div:first-of-type {
