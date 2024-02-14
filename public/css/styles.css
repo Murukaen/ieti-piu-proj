@@ -440,7 +440,7 @@ section#contact > img.contact-icon {
     top: 4px;
 }
 
-section#contact > h2 {
+section#contact > h2.mobile {
     display: inline-block;
 }
 
@@ -855,6 +855,10 @@ section#contact > div:has(img.info) > img {
         display: none;
     }
 
+    section#contact h2.tablet {
+        display: inline-block;
+    }
+
     section#contact h2 {
         margin-top: 56px;
     }
@@ -877,6 +881,7 @@ section#contact > div:has(img.info) > img {
 
     section#contact > img:first-of-type {
         width: 100%;
+        display: block;
     }
 }
 
