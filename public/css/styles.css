@@ -1087,4 +1087,35 @@ section#contact > div:has(img.info) > img {
     section#location-details > div > p:last-of-type {
         margin-bottom: 0;
     }
+
+    section#contact > img {
+        width: 100%;
+    }
+
+    section#contact > img.tablet {
+        display: none;
+    }
+
+    section#contact > h2 {
+        margin-top: 92px;
+        margin-bottom: 32px;
+    }
+
+    section#contact > form > input {
+        margin-bottom: 46px;
+    }
+
+    section#contact > form > input, section#contact > form > textarea {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    section#contact > div:has(button) {
+        margin-top: 84px;
+    }
+
+    section#contact > div:last-of-type > p:last-of-type {
+        margin-bottom: 100px;
+        margin-top: 0;
+    }
 }
