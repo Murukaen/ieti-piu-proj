@@ -145,6 +145,14 @@ footer .imgs > img {
     min-height: 310px;
 }
 
+#search-section .green {
+    color: #02B70A;
+}
+
+#search-section .red {
+    color: red;
+}
+
 #search-section > form, section#search-locations > form {
     display: inline-block;
 }
