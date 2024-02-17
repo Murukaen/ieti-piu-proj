@@ -1064,6 +1064,8 @@ section#contact > div:has(img.info) > img {
 
     #reserve-book-footer {
         background-color: #800080;
+        min-height: 330px;
+        padding-top: 64px;
     }
 
     section#location-details {
