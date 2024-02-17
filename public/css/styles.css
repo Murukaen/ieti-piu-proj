@@ -626,7 +626,7 @@ section#contact > div:has(img.info) > img {
         margin: 0;
     }
 
-    #search-locations .tablet {
+    #search-locations .tablet, #search-section .tablet {
         display: revert;
     }
 
