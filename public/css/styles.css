@@ -306,7 +306,7 @@ section#book-details-actions span.green {
     color: #02B70A;
 }
 
-section#book-details-actions div:has(> a > button), #reserve-section div:has(> button), section#contact div:has(button) {
+section#book-details-actions div:has(> a > button), #reserve-section div:has(button), section#contact div:has(button) {
     margin-top: 28px;
     display: flex;
     flex-direction: row;
@@ -387,7 +387,7 @@ section#book-more-imgs img, #reserve-section img {
     border-radius: 20px;
 }
 
-#reserve-section div:has(> button) {
+#reserve-section div:has(button) {
     justify-content: center;
     margin-top: 60px;
 }
