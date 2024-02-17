@@ -742,6 +742,10 @@ section#contact > div:has(img.info) > img {
         padding: 0;
     }
 
+    #reserve-section .tablet {
+        display: revert;
+    }
+
     #reserve-section > section:first-of-type {
         padding-left: 16px;
     }
