@@ -626,6 +626,10 @@ section#contact > div:has(img.info) > img {
         margin: 0;
     }
 
+    #search-locations .tablet {
+        display: revert;
+    }
+
     #search-section form, section#search-locations form {
         width: 100%;
         text-align: center;
